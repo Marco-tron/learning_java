@@ -22,7 +22,7 @@ public class Variables {
 		
 		int y = 20;
 		
-		
+		// 
 		System.out.println(y+x);
 
 	}
