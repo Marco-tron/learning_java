@@ -13,6 +13,7 @@ public class Earth {
 		marco.height = 1.96;
 		marco.name = "Marco Aurelio";
 		
+		// you can also assign values when the constructor is called
 		Human bob = new Human("Bob Sheppard", 34, 1.85, "blue");
 		
 		marco.speak();
