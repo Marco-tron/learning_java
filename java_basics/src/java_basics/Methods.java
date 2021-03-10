@@ -32,5 +32,7 @@ public class Methods {
 		System.out.println("Pasting an Integer: "+a);
 		
 		}
+	
+	// methods defined without static can only be accessed via an instance of the class
 }
 

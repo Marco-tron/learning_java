@@ -11,4 +11,10 @@ public class Utils {
 			int result = Argument+10;
 			return result;
 		}
+		
+		// a private method can only be called inside its own class
+		private static int add10private(int Argument) {
+			int result = Argument+10;
+			return result;
+		}
 }
