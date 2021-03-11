@@ -1,6 +1,7 @@
 package object_orientation;
 
-public class Animal {
+// an abstract class can never be implemented, only extended
+public abstract class Animal {
 	int age;
 	String gender;
 	int weight;
@@ -19,4 +20,6 @@ public class Animal {
 	public void eat () {
 		System.out.println("eating...");
 	}
+	
+	public abstract void move();
 }
